@@ -12,7 +12,7 @@ export class Counter extends Component {
   // }
 
   handleIncrement = () => {
-    console.log("is clicked?");
+    // console.log("is clicked?");
     this.props.onIncrementClick(this.props.counter);
   };
 
